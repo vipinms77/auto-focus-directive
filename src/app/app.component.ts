@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+  show = false;
+
+  loop = [1,2,3,4,5,6,7,8,9];
+
+  toggle() {
+    this.show = !this.show
+  }
 }
